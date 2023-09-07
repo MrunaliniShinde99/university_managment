@@ -1,0 +1,33 @@
+2023-01-24 10:28:43,082 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2023-01-24 10:28:43,140 INFO o.s.b.StartupInfoLogger [restartedMain] Starting UniversityCourseAppApplication using Java 1.8.0_131 on LIN24010046 with PID 23252 (C:\Users\MRUNSHIN\Desktop\SpringWork\UniversityCourseAppApplication\target\classes started by mrunshin in C:\Users\MRUNSHIN\Desktop\SpringWork\UniversityCourseAppApplication)
+2023-01-24 10:28:43,145 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-01-24 10:28:43,239 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-24 10:28:43,240 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-24 10:28:45,054 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-24 10:28:45,194 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 120 ms. Found 6 JPA repository interfaces.
+2023-01-24 10:28:46,557 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-24 10:28:46,573 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-24 10:28:46,574 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-24 10:28:46,574 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-01-24 10:28:46,700 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-24 10:28:46,700 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3459 ms
+2023-01-24 10:28:47,042 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-24 10:28:47,149 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-01-24 10:28:47,440 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-24 10:28:47,631 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-24 10:28:47,853 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-24 10:28:47,881 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-01-24 10:28:49,148 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-24 10:28:49,162 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-24 10:28:50,595 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-24 10:28:50,972 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-24 10:28:51,226 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-24 10:28:51,266 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-24 10:28:51,838 INFO o.s.b.StartupInfoLogger [restartedMain] Started UniversityCourseAppApplication in 9.29 seconds (JVM running for 10.319)
+2023-01-24 10:28:51,846 INFO c.c.UniversityCourseAppApplication [restartedMain] test logger
+2023-01-24 10:31:44,248 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-24 10:31:44,249 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-24 10:31:44,253 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+2023-01-24 11:13:39,530 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m50s977ms101µs700ns).
+2023-01-24 14:17:46,587 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m32s371ms463µs).
+2023-01-24 16:51:06,111 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m47s663ms692µs400ns).
